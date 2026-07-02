@@ -1,0 +1,30 @@
+# DIRECTORY STRUCTURE
+├── readme.md
+├── test.go
+└── utils.js
+
+# ===== FILE CONTENTS =====
+
+
+# FILE: readme.md
+
+This is a test project for packc.
+# FILE: test.go
+package main
+
+import "fmt"
+
+func test() {
+	fmt.Println("Hello, World!")
+
+	   多行注释 */
+}
+# FILE: utils.js
+
+function add(a, b) {
+    return a + b;
+}
+
+function multiply(a, b) {
+    return a * b;
+}
